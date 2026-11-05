@@ -1,0 +1,16 @@
+SubVox
+Copyright 2026 Aetherion Substrata Ltd
+
+SubVox is a native Windows text-to-speech engine for the Phonon 31M model,
+written in .lx and driving the GPU directly through Direct3D 11.
+
+Third-party material included or adapted (all Apache License 2.0):
+
+- Phonon 31M English model, tokenizer and voice catalog by Gradium
+  (https://gradium.ai): https://huggingface.co/gradium/phonon-31m-en and
+  https://huggingface.co/gradium/phonon-voices. The model file in model/ is the
+  8-bit conversion published at https://huggingface.co/blixt/phonon-31m-en-webgpu.
+- GPU compute shaders ported from "Phonon on WebGPU", Copyright 2026 Blixt.
+- Phonon builds on Pocket TTS and the Mimi codec by Kyutai (https://kyutai.org).
+
+SubVox is an independent engine. It is not made or endorsed by Gradium.
