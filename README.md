@@ -32,7 +32,6 @@ Full table in BENCH.md.
 ```
 voice.exe "Hello from my own engine."
 voice.exe "Pick a voice." -voice Harper -out hello.wav
-voice.exe "Same take every time." -seed 7
 voice.exe -voices
 voice.exe -bench
 ```
