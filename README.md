@@ -29,6 +29,9 @@ Full table in BENCH.md.
 
 ## Use
 
+Double-click **SubVox.exe** for the window: type, pick a voice, press Enter to speak, and every word lights up as it is said. Or drive the engine from the command line with `voice.exe`:
+
+
 ```
 voice.exe "Hello from my own engine."
 voice.exe "Pick a voice." -voice Harper -out hello.wav
