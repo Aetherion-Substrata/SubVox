@@ -22,7 +22,7 @@ Full table in BENCH.md.
 ## What you get
 
 - `voice.exe` - the whole engine, about 0.4 MB
-- `model/` - the Phonon 31M English model (8-bit) and tokenizer
+- `model/` - a 31M English speech model (8-bit) and tokenizer
 - `voices/` - 37 ready voices
 - 24 kHz mono speech, plus a word-timing file for captions, lip sync and karaoke
 - Runs on any Windows 10/11 PC with a Direct3D 11 GPU
